@@ -6,7 +6,7 @@ install:
     - curl -sL https://deb.nodesource.com/setup_8.x | sudo -E bash -
     - sudo apt-get install -y nodejs
 ignore:
-    - bouncecode.yml
+    - please-ignore.md
 exercises:
     -
         subject: Hello, world! 를 출력해봅시다.
