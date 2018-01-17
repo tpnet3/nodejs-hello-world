@@ -1,0 +1,19 @@
+from: ubuntu:16.04
+name: nodejs-hello-world
+install:
+    - apt-get update -y
+    - apt-get install -y software-properties-common python-software-properties curl sudo
+    - curl -sL https://deb.nodesource.com/setup_8.x | sudo -E bash -
+    - sudo apt-get install -y nodejs
+ignore:
+    - bouncecode.yml
+exercises:
+    -
+        subject: Hello, world! 를 출력해봅시다.
+        guide: |
+            Hello, world!
+        run:
+            - cd example
+            - node app.js
+        test:
+            - echo "exit 0"
