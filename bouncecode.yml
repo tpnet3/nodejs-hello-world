@@ -13,7 +13,6 @@ exercises:
         guide: |
             Hello, world!
         run:
-            - cd example
-            - node app.js
+            - cd example && node app.js
         test:
             - echo "exit 0"
