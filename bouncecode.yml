@@ -1,20 +1,24 @@
-from: ubuntu:16.04
+version: 1
 name: nodejs-hello-world
+
+from: ubuntu:16.04
+workspace: /workspace
 install:
     - apt-get update -y
     - apt-get install -y software-properties-common python-software-properties curl sudo
     - curl -sL https://deb.nodesource.com/setup_8.x | sudo -E bash -
     - sudo apt-get install -y nodejs
-start:
-    - cd example && node app.js
-ignore:
-    - please-ignore.md
+copy:
+    - example example
+cmd:
+    - /bin/bash
+
 exercises:
     -
         subject: Hello, world! 를 출력해봅시다.
         guide: |
             Hello, world!
         run:
-            - cd example && node app.js
+            - node app.js
         test:
             - echo "exit 0"
