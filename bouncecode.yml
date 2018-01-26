@@ -1,17 +1,24 @@
-version: 1
 name: nodejs-hello-world
 
 from: ubuntu:16.04
 workspace: /workspace
 install:
     - apt-get update -y
-    - apt-get install -y software-properties-common python-software-properties curl sudo
+    - apt-ge4t install -y software-properties-common python-software-properties curl sudo
     - curl -sL https://deb.nodesource.com/setup_8.x | sudo -E bash -
     - sudo apt-get install -y nodejs
 copy:
     - example example
 cmd:
     - /bin/bash
+
+information:
+    title: Hello world 출력
+    headline: 헤드라인 부제입니다.
+    description: |
+        강의에 대한 설명입니다.
+    label:
+        - nodejs
 
 exercises:
     -
