@@ -29,8 +29,8 @@ exercises:
                 guide: |
                     Hello, world!
                 active:
-                    example/app.js
-                    example/package.js
+                    - example/app.js
+                    - example/package.js
                 run:
                     - node example/app.js
                 test:
@@ -42,8 +42,8 @@ exercises:
                 guide: |
                     Hello, world!
                 active:
-                    example/app.js
-                    example/package.js
+                    - example/app.js
+                    - example/package.js
                 run:
                     - node example/app.js
                 test:
@@ -58,8 +58,8 @@ exercises:
                 guide: |
                     Hello, world!
                 active:
-                    example/app.js
-                    example/package.js
+                    - example/app.js
+                    - example/package.js
                 run:
                     - node example/app.js
                 test:
@@ -71,8 +71,8 @@ exercises:
                 guide: |
                     Hello, world!
                 active:
-                    example/app.js
-                    example/package.js
+                    - example/app.js
+                    - example/package.js
                 run:
                     - node example/app.js
                 test:
