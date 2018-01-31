@@ -30,7 +30,7 @@ exercises:
                     Hello, world!
                 active:
                     - example/app.js
-                    - example/package.js
+                    - example/package.json
                 run:
                     - node example/app.js
                 test:
@@ -43,7 +43,7 @@ exercises:
                     Hello, world!
                 active:
                     - example/app.js
-                    - example/package.js
+                    - example/package.json
                 run:
                     - node example/app.js
                 test:
@@ -59,7 +59,7 @@ exercises:
                     Hello, world!
                 active:
                     - example/app.js
-                    - example/package.js
+                    - example/package.json
                 run:
                     - node example/app.js
                 test:
@@ -72,7 +72,7 @@ exercises:
                     Hello, world!
                 active:
                     - example/app.js
-                    - example/package.js
+                    - example/package.json
                 run:
                     - node example/app.js
                 test:
