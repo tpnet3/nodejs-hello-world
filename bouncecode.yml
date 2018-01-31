@@ -22,10 +22,60 @@ information:
 
 exercises:
     -
-        subject: Hello, world! 를 출력해봅시다.
-        guide: |
-            Hello, world!
-        run:
-            - node app.js
-        test:
-            - echo "exit 0"
+        section: 섹션 1. 첫번째 섹션입니다.
+        lecture:
+            -
+                subject: 첫번째 목표
+                guide: |
+                    Hello, world!
+                active:
+                    example/app.js
+                    example/package.js
+                run:
+                    - node example/app.js
+                test:
+                    - echo "exit 0"
+                cmd:
+                    - /bin/sh -c "Hello world"
+            -
+                subject: 두번째 목표
+                guide: |
+                    Hello, world!
+                active:
+                    example/app.js
+                    example/package.js
+                run:
+                    - node example/app.js
+                test:
+                    - echo "exit 0"
+                cmd:
+                    - /bin/sh -c "Hello world"
+    -
+        section: 섹션 2. 두번째 섹션
+        lecture:
+            -
+                subject: 세번째 목표
+                guide: |
+                    Hello, world!
+                active:
+                    example/app.js
+                    example/package.js
+                run:
+                    - node example/app.js
+                test:
+                    - echo "exit 0"
+                cmd:
+                    - /bin/sh -c "Hello world"
+            -
+                subject: 네번째 목표
+                guide: |
+                    Hello, world!
+                active:
+                    example/app.js
+                    example/package.js
+                run:
+                    - node example/app.js
+                test:
+                    - echo "exit 0"
+                cmd:
+                    - /bin/sh -c "Hello world"
