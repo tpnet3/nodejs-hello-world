@@ -32,7 +32,7 @@ exercises:
                     - example/app.js
                     - example/package.json
                 run:
-                    - ((bouncecode open http://localhost:3000 -p 3000) &) && node example/app.js
+                    - ((bouncecode open http://localhost:4000 -p 4000) &) && node example/app.js
                 test:
                     - echo "exit 0"
                 cmd:
@@ -45,7 +45,7 @@ exercises:
                     - example/app.js
                     - example/package.json
                 run:
-                    - ((bouncecode open http://localhost:3000 -p 3000) &) && node example/app.js
+                    - ((bouncecode open http://localhost:4000 -p 4000) &) && node example/app.js
                 test:
                     - echo "exit 0"
                 cmd:
@@ -61,7 +61,7 @@ exercises:
                     - example/app.js
                     - example/package.json
                 run:
-                    - ((bouncecode open http://localhost:3000 -p 3000) &) && node example/app.js
+                    - ((bouncecode open http://localhost:4000 -p 4000) &) && node example/app.js
                 test:
                     - echo "exit 0"
                 cmd:
@@ -74,7 +74,7 @@ exercises:
                     - example/app.js
                     - example/package.json
                 run:
-                    - ((bouncecode open http://localhost:3000 -p 3000) &) && node example/app.js
+                    - ((bouncecode open http://localhost:4000 -p 4000) &) && node example/app.js
                 test:
                     - echo "exit 0"
                 cmd:
